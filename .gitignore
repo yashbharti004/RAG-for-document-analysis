@@ -1,0 +1,26 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Vectorstore (generated)
+vectorstore/
+
+# Eval results (generated)
+eval/results_*.json
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

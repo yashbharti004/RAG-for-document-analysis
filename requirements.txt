@@ -1,0 +1,32 @@
+# --- Core RAG ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+langchain-ollama>=0.2.0
+
+# --- Embeddings & Reranking ---
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+
+# --- Keyword Search ---
+rank-bm25>=0.2.2
+
+# --- PDF Extraction ---
+PyMuPDF>=1.24.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# --- API & Frontend ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+streamlit>=1.38.0
+requests>=2.32.0
+
+# --- Evaluation ---
+ragas>=0.2.0
+datasets>=2.0.0
+
+# --- Utilities ---
+pydantic>=2.0.0
+python-dotenv>=1.0.0

@@ -1,0 +1,366 @@
+{
+  "description": "Evaluation dataset for university policy question-answering benchmark.",
+  "instructions": "Each test case specifies the query, expected answer, expected source document, page number, and question category.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the minimum attendance percentage required for students?",
+      "expected_answer": "75% attendance is mandatory for all courses",
+      "source_document": "attendance_policy",
+      "source_page": 3,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 2,
+      "question": "What happens if a student's attendance falls below the required minimum?",
+      "expected_answer": "The student will be debarred from appearing in the end-semester examination",
+      "source_document": "attendance_policy",
+      "source_page": 4,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 3,
+      "question": "How can a student apply for medical leave?",
+      "expected_answer": "Submit a medical certificate to the Dean of Students within 7 working days of returning",
+      "source_document": "attendance_policy",
+      "source_page": 5,
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "id": 4,
+      "question": "What is the maximum number of days allowed for medical leave in a semester?",
+      "expected_answer": "15 working days per semester with valid medical documentation",
+      "source_document": "attendance_policy",
+      "source_page": 5,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 5,
+      "question": "What is the grading scale used by the university?",
+      "expected_answer": "10-point CGPA scale where A+ is 10, A is 9, B+ is 8, B is 7, C+ is 6, C is 5, D is 4, F is 0",
+      "source_document": "examination_rules",
+      "source_page": 2,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 6,
+      "question": "What is the minimum CGPA required to avoid academic probation?",
+      "expected_answer": "A minimum CGPA of 5.0 is required to remain in good academic standing",
+      "source_document": "examination_rules",
+      "source_page": 8,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 7,
+      "question": "How many times can a student re-appear for a failed examination?",
+      "expected_answer": "A student can re-appear for a maximum of 3 attempts for any failed course",
+      "source_document": "examination_rules",
+      "source_page": 12,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 8,
+      "question": "What is the procedure for applying for re-evaluation of an answer sheet?",
+      "expected_answer": "Submit re-evaluation form within 10 days of result declaration along with prescribed fee to the examination cell",
+      "source_document": "examination_rules",
+      "source_page": 15,
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "id": 9,
+      "question": "Are students allowed to use calculators during examinations?",
+      "expected_answer": "Non-programmable calculators are permitted only for specified subjects as mentioned in the exam notice",
+      "source_document": "examination_rules",
+      "source_page": 6,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 10,
+      "question": "What are the penalties for using unfair means in exams as per Section 4.2?",
+      "expected_answer": "Cancellation of the exam, suspension for one semester, and a disciplinary entry in the student record",
+      "source_document": "examination_rules",
+      "source_page": 18,
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "id": 11,
+      "question": "What is the hostel curfew time for undergraduate students?",
+      "expected_answer": "10:00 PM on weekdays and 11:00 PM on weekends",
+      "source_document": "hostel_policy",
+      "source_page": 4,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 12,
+      "question": "What items are prohibited in the hostel rooms?",
+      "expected_answer": "Electrical appliances such as heaters, irons, and electric stoves; alcoholic beverages; and any inflammable materials",
+      "source_document": "hostel_policy",
+      "source_page": 7,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 13,
+      "question": "How can a student apply for a hostel room change?",
+      "expected_answer": "Submit a room change request to the hostel warden with valid reason. Room changes are processed at the beginning of each semester only",
+      "source_document": "hostel_policy",
+      "source_page": 9,
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "id": 14,
+      "question": "What is the hostel mess fee for a semester?",
+      "expected_answer": "Rs. 25,000 per semester for the regular mess plan",
+      "source_document": "hostel_policy",
+      "source_page": 11,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 15,
+      "question": "What are the rules for overnight guests in the hostel?",
+      "expected_answer": "Guests are not permitted to stay overnight. Day visitors must register at the front desk and leave by 8 PM",
+      "source_document": "hostel_policy",
+      "source_page": 6,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 16,
+      "question": "What CGPA is required to be eligible for the merit scholarship?",
+      "expected_answer": "A minimum CGPA of 8.5 in the previous academic year",
+      "source_document": "scholarship_guidelines",
+      "source_page": 3,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 17,
+      "question": "What is the amount of the need-based scholarship?",
+      "expected_answer": "Up to 100% tuition fee waiver based on family income assessment",
+      "source_document": "scholarship_guidelines",
+      "source_page": 5,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 18,
+      "question": "What documents are required to apply for the need-based scholarship?",
+      "expected_answer": "Income certificate, BPL card or income tax returns of parents, bank statements for the last 6 months, and a recommendation letter from the Head of Department",
+      "source_document": "scholarship_guidelines",
+      "source_page": 6,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 19,
+      "question": "Can a student hold multiple scholarships simultaneously?",
+      "expected_answer": "No, a student can hold only one university scholarship at a time. External scholarships may be held concurrently with approval from the scholarship committee",
+      "source_document": "scholarship_guidelines",
+      "source_page": 8,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 20,
+      "question": "What is the deadline for scholarship applications each year?",
+      "expected_answer": "August 31 for the academic year, with late applications accepted until September 15 with a late fee",
+      "source_document": "scholarship_guidelines",
+      "source_page": 4,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 21,
+      "question": "What is the anti-ragging policy and its penalties?",
+      "expected_answer": "Ragging in any form is strictly prohibited. Penalties include suspension, expulsion, FIR with police, and debarring from examinations as per UGC regulations",
+      "source_document": "student_conduct",
+      "source_page": 10,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 22,
+      "question": "How does the disciplinary committee handle complaints?",
+      "expected_answer": "Complaints are investigated within 7 days, a hearing is held within 14 days, and the decision is communicated within 21 days of filing",
+      "source_document": "student_conduct",
+      "source_page": 14,
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "id": 23,
+      "question": "What is the dress code policy for laboratory sessions?",
+      "expected_answer": "Students must wear lab coats, closed-toe shoes, and safety goggles during all laboratory sessions",
+      "source_document": "student_conduct",
+      "source_page": 5,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 24,
+      "question": "What is the process for forming a new student club?",
+      "expected_answer": "Submit a proposal with at least 20 student signatures, a faculty advisor, constitution, and budget plan to the Student Affairs office for approval",
+      "source_document": "student_conduct",
+      "source_page": 20,
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "id": 25,
+      "question": "If a student fails due to low attendance and also has a pending disciplinary case, which policy takes precedence for the exam debarment?",
+      "expected_answer": "Both policies apply independently. The attendance debarment is automatic per the attendance policy, while the disciplinary action follows the student conduct committee's decision",
+      "source_document": "attendance_policy",
+      "source_page": 4,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 26,
+      "question": "What happens to a scholarship if the student's CGPA drops mid-year?",
+      "expected_answer": "The scholarship is placed on probation for one semester. If the CGPA is not restored by the end of the probation semester, the scholarship is revoked",
+      "source_document": "scholarship_guidelines",
+      "source_page": 9,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 27,
+      "question": "What is the library fine for overdue books?",
+      "expected_answer": "Rs. 5 per day for the first 7 days, Rs. 10 per day thereafter, with a maximum fine of Rs. 500",
+      "source_document": "library_rules",
+      "source_page": 3,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 28,
+      "question": "How many books can a postgraduate student borrow at a time?",
+      "expected_answer": "Up to 6 books for a period of 30 days each",
+      "source_document": "library_rules",
+      "source_page": 2,
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": 29,
+      "question": "What is the fee structure for international students?",
+      "expected_answer": "International students pay 2x the regular tuition fee plus a foreign student surcharge of USD 500 per semester",
+      "source_document": "fee_structure",
+      "source_page": 7,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 30,
+      "question": "What is the last date for fee payment without a late fee?",
+      "expected_answer": "Within 15 days of the start of the semester. A late fee of Rs. 100 per day is charged thereafter",
+      "source_document": "fee_structure",
+      "source_page": 3,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 31,
+      "question": "What is the refund policy if a student withdraws within the first month?",
+      "expected_answer": "90% refund of tuition fee if withdrawn within 15 days, 75% within 30 days. Hostel and mess fees are non-refundable after the first week",
+      "source_document": "fee_structure",
+      "source_page": 5,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 32,
+      "question": "Does the university offer parking facilities for students?",
+      "expected_answer": "unanswerable",
+      "source_document": "",
+      "source_page": null,
+      "difficulty": "easy",
+      "type": "unanswerable"
+    },
+    {
+      "id": 33,
+      "question": "What is the university's policy on cryptocurrency mining in hostel rooms?",
+      "expected_answer": "unanswerable",
+      "source_document": "",
+      "source_page": null,
+      "difficulty": "medium",
+      "type": "unanswerable"
+    },
+    {
+      "id": 34,
+      "question": "Can students order food delivery to the hostel after curfew?",
+      "expected_answer": "unanswerable",
+      "source_document": "",
+      "source_page": null,
+      "difficulty": "medium",
+      "type": "unanswerable"
+    },
+    {
+      "id": 35,
+      "question": "What is the procedure for semester withdrawal on medical grounds?",
+      "expected_answer": "Submit medical certificate from a registered medical practitioner, application to Dean of Academics, and approval from the medical board. Must apply within 30 days of the medical event",
+      "source_document": "examination_rules",
+      "source_page": 20,
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "id": 36,
+      "question": "How are internal assessment marks calculated?",
+      "expected_answer": "Internal assessment comprises 40% of total marks: 20% from mid-semester exam, 10% from assignments, and 10% from class participation and quizzes",
+      "source_document": "examination_rules",
+      "source_page": 4,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 37,
+      "question": "What are the eligibility criteria for the student council elections?",
+      "expected_answer": "Minimum CGPA of 7.0, no disciplinary record, enrolled as a full-time student, and completion of at least 2 semesters",
+      "source_document": "student_conduct",
+      "source_page": 22,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 38,
+      "question": "What is the policy on summer internship credits?",
+      "expected_answer": "Students can earn up to 4 credits for a summer internship of minimum 8 weeks duration, with a completion report and employer evaluation",
+      "source_document": "examination_rules",
+      "source_page": 25,
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": 39,
+      "question": "Compare the hostel fee refund policy with the tuition fee refund policy for a student withdrawing in week 2.",
+      "expected_answer": "Tuition fee gets 90% refund (within 15 days), but hostel fee is non-refundable after the first week. This means the student loses the full hostel fee but recovers most of the tuition",
+      "source_document": "fee_structure",
+      "source_page": 5,
+      "difficulty": "hard",
+      "type": "multi-section"
+    },
+    {
+      "id": 40,
+      "question": "What mental health resources does the university provide to students?",
+      "expected_answer": "unanswerable",
+      "source_document": "",
+      "source_page": null,
+      "difficulty": "medium",
+      "type": "unanswerable"
+    }
+  ]
+}
